@@ -1,0 +1,46 @@
+{"products" :[
+
+    {
+    "id": 1,
+    "title": "Laptops",
+    "price": 50109.95,
+    "description": "Your perfect pack for everyday use ",
+    "category": "electronics"
+    },
+    {
+    "id": 2,
+    "title": "Watch",
+    "price": 500,
+    "description": "Your perfect Watch ",
+    "category": "electronics"
+    },
+    {
+    "id":3,
+    "title": "Wingsof Fire",
+    "price": 800,
+    "description": "Your perfect Friend ",
+    "category": "books"
+    }
+    ],
+    "users":[
+     {
+        "id":1,
+        "name":"Pranshu",
+        "password":"baba",
+        "role":"Admin"
+     },
+     {
+        "id":2,
+        "name":"Aditya",
+        "password":"baba",
+        "role":"Admin"
+     },
+     {
+        "id":3,
+        "name":"Mani",
+        "password":"baba",
+        "role":"User"
+     }
+
+    ]
+    }
