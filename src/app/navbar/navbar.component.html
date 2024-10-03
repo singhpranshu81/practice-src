@@ -1,0 +1,27 @@
+<div>
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Home</a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" *ngIf="!isLoggedIn()"
+            >LogIn</a
+          >
+          <a class="nav-link" (click)="signOut()" *ngIf="isLoggedIn()"
+            >LogOut</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div>
+
+    <router-outlet></router-outlet>
+</div>
